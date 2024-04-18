@@ -1,0 +1,4 @@
+/* pages/favor/favor.wxss */
+.title {
+  color: red;
+}

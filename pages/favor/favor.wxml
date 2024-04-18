@@ -1,0 +1,10 @@
+<!--pages/favor/favor.wxml-->
+<text class="title">pages/favor/favor.wxml</text>
+<view>{{content}}</view>
+<view wx:for="{{movies}}" wx:key="index">
+{{item}}
+</view>
+<view>
+当前计数： {{count}}
+<button bind:tap="increment">+</button>
+</view>
