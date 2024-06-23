@@ -1,46 +1,61 @@
 {
   "pages": [
-    "pages/favor/favor",
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/knowledge/knowledge",
+    "pages/affairs/affairs",
     "pages/treatment/treatment",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/excustom/excustom",
+    "pages/tool/tool"
   ],
+  "usingComponents": {
+    "my-cpn": "./components/section-info/section-info",
+    "tab-bar": "./components/tab-bar/tab-bar",
+    "cover": "./components/cover/cover",
+    "professor": "./components/professor/professor",
+    "exhibition": "./components/exhibition/exhibition",
+    "search-bar": "./components/search-bar/search-bar",
+    "tool-box":"./components/tool-box/tool-box"
+  },
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "富农兴乡",
     "navigationBarBackgroundColor": "#4dd4b2"
   },
-  "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/favor/favor",
-      "text": "知识库",
-      "iconPath": "./assets/img/tab1.png",
-      "selectedIconPath": "./assets/img/tab1_active.png"
-    },
-    {
-      "pagePath": "pages/treatment/treatment",
-      "text": "医疗",
-      "iconPath": "./assets/img/tab2.png",
-      "selectedIconPath": "./assets/img/tab2_active.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "事务",
-      "iconPath": "./assets/img/tab3_active.png",
-      "selectedIconPath": "./assets/img/tab3.png"
-    },
-    {
-      "pagePath": "pages/home/home",
-      "text": "个人中心",
-      "iconPath": "./assets/img/tab4.png",
-      "selectedIconPath": "./assets/img/tab4_active.png"
-    }
-
-  ]
+    "list": [
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "知识库",
+        "iconPath": "./assets/img/tab1.png",
+        "selectedIconPath": "./assets/img/tab1_active.png"
+      },
+      {
+        "pagePath": "pages/treatment/treatment",
+        "text": "医疗",
+        "iconPath": "./assets/img/tab2.png",
+        "selectedIconPath": "./assets/img/tab2_active.png"
+      },
+      {
+        "pagePath": "pages/affairs/affairs",
+        "text": "政务",
+        "iconPath": "./assets/img/tab3_active.png",
+        "selectedIconPath": "./assets/img/tab3.png"
+      },
+      {
+        "pagePath": "pages/excustom/excustom",
+        "text": "地方语言库",
+        "iconPath": "./assets/img/chat.png",
+        "selectedIconPath": "./assets/img/chat_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人中心",
+        "iconPath": "./assets/img/tab4.png",
+        "selectedIconPath": "./assets/img/tab4_active.png"
+      }
+    ]
   }
 }

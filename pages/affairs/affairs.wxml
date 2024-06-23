@@ -1,0 +1,40 @@
+<!--pages/affairs/affairs.wxml-->
+<!-- <van-search value="{{ value }}" placeholder="查询服务"  /> -->
+<search-bar></search-bar>
+<view class="card">
+<image src="../../assets/img/socard.png" mode=""/>
+<view class="info">
+  <view class="cardName">
+    社会保障卡
+  </view>
+  <view class="intro">
+    添加后快速查看和使用此卡
+  </view>
+</view>
+  <view class="btn">
+    未关联
+  </view>
+</view>
+<tab-bar bind:indexchange="onTapChange"
+current-index="{{currentIndex}}"
+ list="{{['专区', '服务']}}"></tab-bar>
+<swiper current="{{currentIndex}}" style="height: 550px;" bindchange="onSwiperChange">
+  <swiper-item>
+    <view class="box">
+      <view class="a1" style="background-color: #eef0fd; color: #142fa7;">农业资金申请</view>
+      <view class="a2" style="background-color: #fef5f6;color: #b72d3c;">证件办理</view>
+      <view class="a2"  style="background-color: #eef0fd;color: #142fa7;">农事咨询</view>
+      <view class="a2"  style="background-color: #f4f9ff;color: #1c5f94;">村规民约</view>
+      <view class="a2" style="background-color: #f4f9ff;color: #1c5f94;">政策解读</view>
+      <view class="a2"  style="background-color: #fdf6f0; color: #b72d3c;">政策信息</view>
+      <view class="a2"  style="background-color: #fef5f6;color: #b72d3c;">我的待办</view>
+      <view class="a2"  style="background-color: #eef0fd;color: #142fa7;">居民管理</view>
+
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+     功能持续开发中O(∩_∩)O~
+    </view>
+  </swiper-item>
+</swiper>

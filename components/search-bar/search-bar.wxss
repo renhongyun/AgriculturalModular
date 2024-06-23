@@ -1,0 +1,30 @@
+.search-box {
+  background-color: #f7f8fa;
+  width: 390px;
+  height: 36px;
+  margin: 8px auto 3px;
+  
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 5px 8px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.search-box .icon1 {
+  width: 18px;
+  height: 18px;
+}
+.search-box .icon2 {
+  width: 32px;
+  height: 32px;
+}
+input {
+  position: relative;
+  right: 70px;
+  font-size: 15px;
+  color:#808080;
+}
+input::placeholder {
+  color: #909090; /* 灰色的placeholder */
+}

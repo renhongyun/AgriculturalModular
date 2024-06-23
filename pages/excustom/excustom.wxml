@@ -1,0 +1,92 @@
+
+<search-bar></search-bar>
+<view class="module-name">
+  地方特色文化
+</view>
+<scroll-view class="scroll-view" scroll-x="true" show-scrollbar="false">
+<view class="item">
+<view class="shallow1"></view>
+<view class="name">越窑花瓷</view>
+<image src="../../assets/img/yueyao.png" mode=""/>
+<view class="solid1 title">
+“母亲瓷”
+</view>
+</view>
+<view class="item">
+<view class="shallow2"></view>
+<view class="name">徽剧</view>
+<image src="../../assets/img/huijv.png" mode=""/>
+<view class="solid2 title">
+安徽非遗文化
+</view>
+</view>
+<view class="item">
+<view class="shallow3"></view>
+<view class="name">客家土楼</view>
+<image src="../../assets/img/tulou.png" mode=""/>
+<view class="solid3 title">
+感受古老建筑之美
+</view>
+</view>
+<view class="item">
+<view class="shallow4"></view>
+<view class="name">广东珠绣</view>
+<image src="../../assets/img/cixiu.png" mode=""/>
+<view class="solid4 title">
+古老东方美学
+</view>
+</view>
+<view class="item">
+<view class="shallow5"></view>
+<view class="name">皖南建筑</view>
+<image src="../../assets/img/wannan.png" mode=""/>
+<view class="solid5 title">
+江南水墨画
+</view>
+</view>
+</scroll-view>
+<view class="module-name">
+  民族文化
+</view>
+<scroll-view class="scroll-view" scroll-x="true" show-scrollbar="false">
+<view class="mitem">
+<image src="../../assets/img/manzu.png" mode="" class="minzuimg"/>
+<view class="info">
+满族旗袍：民族服饰
+</view>
+</view>
+<view class="mitem">
+<image src="../../assets/img/yizu.png" mode="" class="minzuimg"/>
+<view class="info">
+彝族：听凉山说
+</view>
+</view>
+<view class="mitem">
+<image src="../../assets/img/zhuangzu.png" mode="" class="minzuimg"/>
+<view class="info">
+壮族绣球：十二...
+</view>
+</view>
+<view class="mitem">
+<image src="../../assets/img/zangzu.png" mode="" class="minzuimg"/>
+<view class="info">
+藏族：路过这经...
+</view>
+</view>
+<view class="mitem">
+<image src="../../assets/img/mengguzu.png" mode="" class="minzuimg"/>
+<view class="info">
+蒙古族：逐水草...
+</view>
+</view>
+
+</scroll-view>
+
+<view class="module-name map">
+  地方语言库
+</view>
+<view class="topBar">
+<image src="../../assets/img/area.png" mode=""/>
+<text class="choice">选择地点以查询方言</text>
+</view>
+<map id="myMap" style="width: 100%; height: 300px;" latitude="39.908" longitude="116.397" markers="{{markers}}"></map>

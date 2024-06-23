@@ -1,0 +1,42 @@
+/* components/exhibition/exhibition.wxss */
+.contain {
+  overflow: hidden;
+  /* display: flex; */
+  background-color: #fff;
+  width: 355px;
+  /* height: 350px; */
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 14px;
+  /* padding: 18px 19px; */
+}
+.contain image {
+  width: 100%;
+  height: 150px;
+}
+.contain .text {
+  padding: 10px 19px;
+}
+.contain .text .top .title{
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.contain .text .top .info {
+  
+  color: #999a9f;
+  font-size: smaller;
+  margin-right: 20px;
+}
+.contain .text .bottom {
+  margin-top: 9px;
+}
+.contain .text .bottom .time {
+  position: relative;
+  right: 8px;
+  text-align: left;
+}
+.contain .text .bottom .profession {
+  margin-top: 6px;
+  color: #acc15f;
+}

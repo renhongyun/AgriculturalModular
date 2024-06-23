@@ -1,0 +1,56 @@
+/* components/professor/professor.wxss */
+.cardWrapper {
+  background-color: #fff;
+  width: 345px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 14px;
+  padding: 18px 19px;
+
+}
+.info {
+  display: flex;
+}
+.info .img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.info .text {
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+.info .text .name {
+  color: #242424;
+  font-size: larger;
+  margin-bottom: 6px;
+}
+.info .text .tag {
+  color: #1bbdc1;
+  border: 1px solid #1bbdc1;
+  border-radius: 5px;
+  padding: 0px 6px;
+  font-size: smaller;
+  margin-left: 8px;
+  text-align: center;
+}
+.info .text .status {
+  
+  color: #a2a2a4;
+}
+.more {
+  margin-top: 10px;
+  line-height: 23px;
+}
+.choice {
+  margin-top: 10px;
+  position: relative;
+  left: 273px;
+}
+.choice text {
+  border-radius: 8px;
+  background-color: #f6f7fb;
+  padding: 3px 12px;
+}

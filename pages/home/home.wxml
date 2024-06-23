@@ -1,2 +1,103 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="bgc">
+  <view class="infoBar">
+    <view class="profile">
+      <image src="../../assets/img/photo.jpg" mode="" />
+    </view>
+    <view class="name">
+      胡棕翔
+    </view>
+  </view>
+</view>
+
+
+
+
+<!-- <image src="../../assets/img/bgc778.png" mode="" class="bgc2"/> -->
+<view class="body">
+  <view class="box">
+    <view class="bar">
+      <view class="left">
+        功能中心
+      </view>
+      <view class="right">
+        <text class="text">查看全部</text>
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+    </view>
+    <view class="icon-container">
+    <view class="item">
+      <image src="../../assets/img/great_icon.png" mode=""/>
+      <text class="title">点赞</text>
+    </view>
+    <view class="item">
+      <image src="../../assets/img/star_icon.png" mode=""/>
+      <text class="title">文章收藏</text>
+    </view>
+    <view class="item">
+      <image src="../../assets/img/person_icon.png" mode=""/>
+      <text class="title">个人信息</text>
+    </view>
+    <view class="item">
+      <image src="../../assets/img/todo_icon.png" mode=""/>
+      <text class="title">待办</text>
+    </view>
+    <view class="item">
+      <image src="../../assets/img/money_icon.png" mode=""/>
+      <text class="title">账户余额</text>
+    </view>
+    </view>
+  </view>
+
+<view class="bottom">
+  <view class="bottom-bar" bind:tap="onTap">
+      <view class="left">
+        智慧农业
+      </view>
+      <view class="right">
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+  </view>
+
+  <view class="bottom-bar">
+      <view class="left">
+        我的部落
+      </view>
+      <view class="right">
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+  </view>
+
+  <view class="bottom-bar">
+      <view class="left">
+        我的通知
+      </view>
+      <view class="right">
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+  </view>
+</view>
+
+
+<view class="bottom2">
+  <view class="bottom-bar">
+      <view class="left">
+        帮助中心
+      </view>
+      <view class="right">
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+  </view>
+
+  <view class="bottom-bar">
+      <view class="left">
+        客服热线
+      </view>
+      <view class="right">
+        <image src="../../assets/img/right.png" mode="" />
+      </view>
+  </view>
+</view>
+
+
+
+</view>

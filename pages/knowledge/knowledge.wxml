@@ -1,0 +1,61 @@
+<!--pages/favor/favor.wxml-->
+<search-bar></search-bar>
+<!-- <van-search value="{{ value }}" placeholder="请输入搜索关键词" shape="round"/> -->
+
+<view class="swiperWrapper">
+  <swiper class="my-swiper" interval="5000" duration="500" circular indicator-dots autoplay>
+    <swiper-item wx:for="{{imgUrls}}" wx:key="*this">
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<tab-bar bind:indexchange="onTapChange"
+current-index="{{currentIndex}}"
+ list="{{['农业知识', '专家咨询', '技术交流']}}"></tab-bar>
+<swiper current="{{currentIndex}}"  class="swiperContainer" style="height: 1280px;"
+bindchange="onSwiperChange"
+>
+  <swiper-item class="item" >
+    <block wx:for="{{coverData}}" wx:key="*this"> 
+      <cover title="{{item.title}}" 
+             viewCounts="{{item.pageViews}}"
+             loves="{{item.like}}"
+             imgUrl="{{item.imgUrl}}"/>
+    </block>
+
+    
+  </swiper-item>
+  <swiper-item class="item" >
+    <block wx:for="{{professor}}" wx:key="*this">
+     <professor
+     name="{{item.name}}"
+      imgUrl="{{item.imgUrl}}"
+      tag="{{item.tag}}"
+      status="{{item.status}}"
+      more="{{item.more}}"
+     >
+     </professor>
+    </block>
+  </swiper-item>
+  <swiper-item class="item">
+    <block wx:for="{{exhibition}}">
+      <exhibition
+      title="{{item.title}}"
+      imgUrl="{{item.imgUrl}}"
+      info1="{{item.info1}}"
+      info2="{{item.info2}}"
+      time="{{item.time}}"
+      area="{{item.area}}"
+      professon="{{item.professon}}"
+      ></exhibition>
+    </block>
+  </swiper-item>
+</swiper>
+
+
+<!-- <view>
+  <block wx:for="{{listCount}}" wx:key="*this">
+    <view>{{item}}</view>
+  </block>
+</view> -->

@@ -1,0 +1,23 @@
+/* pages/favor/favor.wxss */
+
+.title {
+  color: red;
+}
+
+.my-swiper {
+  border-radius: 8px;
+  overflow: hidden; 
+  width: 100%;
+  height: 240px;
+}
+.my-swiper .slide-image {
+  border-radius: 8px;
+  width: 100%;  
+}
+.swiperWrapper {
+  padding: 5px 10px;
+}
+
+.item {
+  background-color: #f7f8fa;
+}

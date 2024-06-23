@@ -1,0 +1,14 @@
+<!--components/cover/cover.wxml-->
+<!-- 背景色:#c6c2be -->
+
+<view class="coverWrapper">
+<view >
+<view class="title">{{title}}</view>
+<text class="info">阅读 {{viewCounts}}</text>
+<text class="info">赞 {{loves}}</text>
+</view>
+
+  <image src="{{imgUrl}}" alt="" class="img" />
+
+
+</view>

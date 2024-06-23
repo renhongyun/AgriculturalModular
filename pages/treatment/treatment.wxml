@@ -1,2 +1,145 @@
 <!--pages/treatment/treatment.wxml-->
-<text>pages/treatment/treatment.wxml</text>
+<view class="topBar">
+<image src="../../assets/img/area.png" mode=""/>
+<text class="choice">选择医院</text>
+</view>
+<van-search value="{{ value }}" placeholder="输入关键字搜索科室或医生" shape="round" background="#ddf2ec" />
+<view class="shadow">
+</view>
+<view class="content">
+  <view class="imgWrapper">
+    <image src="../../assets/img/button1.png" mode="" />
+  </view>
+  <view class="info">
+    <view class="left">
+      <text class="name">胡棕翔</text>
+      <view class="btn"> 切换</view>
+      <view class="number">就诊号【A0011200136723】 </view>
+      <view class="todo">暂无待办事项</view>
+    </view>
+    <view class="right">
+      <image src="../../assets/img/treatment_qrcode.png" mode="" />
+    </view>
+  </view>
+</view>
+
+<view class="btns">
+  <tab-bar bind:indexchange="onTapChange" 
+  current-index="{{currentIndex}}"
+  list="{{['门诊服务', '住院服务', '便民服务']}}"></tab-bar>
+  <swiper current="{{currentIndex}}"  class="swiperContainer" style="height: 450px;" bindchange="onSwiperChange">
+  <swiper-item class="item" >
+    <view class="box">
+    <view class="item">
+    <image src="../../assets/img/qiandao.png" mode=""/>
+    <text>签到</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/menzhenjiaofei.png" mode=""/>
+    <text>门诊缴费</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/dianzi.png" mode=""/>
+    <text>电子发票</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/menzhenchongzhi.png" mode=""/>
+    <text>门诊充值</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/menzhentuikuan.png" mode=""/>
+    <text>门诊退款</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/jiaoyijilu.png" mode=""/>
+    <text>交易记录</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/aixin.png" mode=""/>
+    <text>医保服务</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/keshijianjie.png" mode=""/>
+    <text>科室简介</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/zhinengdaozhen.png" mode=""/>
+    <text>智能导诊</text>
+    </view>
+    </view>
+
+  </swiper-item>
+  <swiper-item class="item" >
+    <view class="box">
+      <view class="item">
+    <image src="../../assets/img/keshijianjie.png" mode=""/>
+    <text>住院查询</text>
+    </view>
+      <view class="item">
+    <image src="../../assets/img/zhuyuanchongzhi.png" mode=""/>
+    <text>住院充值</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/bingliyouji.png" mode=""/>
+    <text>病例邮寄</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/dianzi.png" mode=""/>
+    <text>电子发票</text>
+    </view>
+    </view>
+  </swiper-item>
+  <swiper-item class="item" >
+    <view class="box">
+      <view class="item">
+    <image src="../../assets/img/peisongdingdan.png" mode=""/>
+    <text>停车缴费</text>
+    </view>
+      <view class="item">
+    <image src="../../assets/img/shitangdingcan.png" mode=""/>
+    <text>食堂订单</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/jiuhucheyuyue.png" mode=""/>
+    <text>救护车预约</text>
+    </view>
+    <!-- <view class="item">
+    <image src="../../assets/img/laiyuandaohang.png" mode=""/>
+    <text>来院导航</text>
+    </view> -->
+    <view class="item">
+    <image src="../../assets/img/yuanneidaohang.png" mode=""/>
+    <text>院内导航</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/songyaodaojia.png" mode=""/>
+    <text>送药到家</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/peisongdingdan.png" mode=""/>
+    <text>配送订单</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/huanzhefuwu.png" mode=""/>
+    <text>患者服务</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/manyidudiaocha.png" mode=""/>
+    <text>满意度调查</text>
+    </view>
+    <view class="item">
+    <image src="../../assets/img/shangmenhuli.png" mode=""/>
+    <text>上门护理</text>
+    </view>
+    
+    </view>
+  </swiper-item>
+</swiper>
+</view>
+<view class="swiperWrapper">
+  <swiper class="my-swiper" interval="5000" duration="500" circular indicator-dots autoplay >
+    <swiper-item wx:for="{{imgUrls}}" wx:key="*this">
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>

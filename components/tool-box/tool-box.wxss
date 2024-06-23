@@ -1,0 +1,27 @@
+/* components/tool-box/tool-box.wxss */
+.box {
+  /* background-color: red; */
+  width: 44%;
+  height: 18%;
+  border-radius: 40rpx;
+  /* border-bottom: 1px solid ;
+  border-right: 1px solid ; */
+  /* box-shadow: black; */
+  padding: 40rpx 30rpx;
+  margin: 20rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 3px 3px 5px #c1c1c1;
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  position: relative;
+}
+.title {
+font-weight: 700;
+}
+.value {
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 15rpx;
+}

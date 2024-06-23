@@ -1,0 +1,5 @@
+<view class="search-box">
+  <image src="../../assets/img/search_icon.png" mode="" class="icon1"/>
+<input type="text" placeholder="请输入搜索关键词"/>
+<image src="../../assets/img/voice.png" mode="" class="icon2"/>
+</view>

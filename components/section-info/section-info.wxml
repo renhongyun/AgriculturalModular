@@ -1,0 +1,5 @@
+<!--pages/components/section-info/section-info.wxml-->
+<text>pages/components/section-info/section-info.wxml</text>
+<text>这是什么好东西呀？喵喵喵</text>
+<view class="info">{{title}}</view>
+<button bind:tap="onBtnTap">点我</button>

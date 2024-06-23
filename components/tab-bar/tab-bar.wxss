@@ -1,0 +1,19 @@
+/* components/tab-bar.wxss */
+/* pages/treatment/treatment.wxss */
+.tabBar {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+}
+
+.item {
+  flex: 1;
+  /* text-align: center; */
+}
+.active {
+  border-bottom: 2px solid #4dd4b2;
+}
+.info {
+  color: #4dd4b2;
+}

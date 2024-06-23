@@ -1,0 +1,27 @@
+<view class="box">
+<tool-box>
+</tool-box>
+<tool-box title="酸碱度" value="7.00" class="item"> 
+</tool-box>
+<tool-box title="肥力" value="7"> 
+</tool-box>
+<tool-box title="温度" value="22°"> 
+  <image src="../../assets/img/panel1.png" mode="" class="icon1"/>
+</tool-box>
+<tool-box title="湿度" value="47%"> 
+  <image src="../../assets/img/panel2.png" mode="" class="icon2"/>
+</tool-box>
+<tool-box title="南风" value="4级"> 
+  <image src="../../assets/img/south.png" mode="" class="icon2"/>
+</tool-box>
+</view>
+<view class="weather">
+<image src="../../assets/img/weather.png" mode="widthFix" class="weatherImg"/>
+<image src="../../assets/img/play.png" mode="" class="play"/>
+</view>
+<view class="title">
+决策意见
+</view>
+<view class="proposal">
+推荐......
+</view>

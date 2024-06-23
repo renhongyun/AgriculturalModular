@@ -1,0 +1,7 @@
+<view class="box">
+<view class="wrapper">
+  <view class="title">{{title}}</view>
+<view class="value">{{value}}</view>
+</view>
+<slot class="icon"></slot>
+</view>

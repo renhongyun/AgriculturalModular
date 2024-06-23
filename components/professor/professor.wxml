@@ -1,0 +1,19 @@
+<!--components/professor/professor.wxml-->
+<view class="cardWrapper">
+  <view class="info">
+  <image src="{{imgUrl}}" mode="" class="img"/>
+  <view class="text">
+    <view class="name">
+    <text>{{name}}</text>
+    <text class="tag">{{tag}}</text>
+    </view>
+    <text class="status">{{tag}}</text>
+  </view>
+  </view>
+  <view class="more">
+{{more}}
+  </view>
+  <view class="choice">
+    <text>咨询</text>
+  </view>
+</view>

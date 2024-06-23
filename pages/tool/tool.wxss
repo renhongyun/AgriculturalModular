@@ -1,0 +1,67 @@
+/* pages/tool/tool.wxss */
+page {
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 80rpx;
+}
+.box {
+  width: 90%;
+ margin: 0 auto;
+ margin-top: 20rpx;
+ /* display: flex;
+ flex-wrap: wrap; */
+}
+.icon1 {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 40rpx;
+  bottom: 45rpx;
+}
+.icon2 {
+  width: 85rpx;
+  height: 85rpx;
+  position: absolute;
+  right: 40rpx;
+  bottom: 50rpx;
+}
+/* .box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+} */
+.weather {
+  width: 640rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  overflow: hidden;
+  height: 314rpx;
+  margin-top: 40rpx;
+  position: relative;
+}
+.weather .weatherImg {
+  width: 100%;
+
+}
+.play {
+  position: absolute;
+  top: 39%;
+  left: 45%;
+  width: 80rpx;
+  height: 80rpx;
+}
+.title {
+  margin-left: 58rpx;
+  margin-top: 40rpx;
+}
+.proposal {
+  width: 640rpx;
+  border-radius: 20rpx;
+  height: 280rpx;
+  background-color: #9ad9ea;
+  margin: 0 auto;
+  /* margin-bottom: 80rpx; */
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}

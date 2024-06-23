@@ -1,0 +1,74 @@
+/* pages/affairs/affairs.wxss */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+  /* text-align: center; */
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.box .a1 {
+  /* display: block; */
+  width: 100%;
+  /* width: 190px; */
+  height: 100px;
+  border-radius: 8px;
+  border: 5px solid #fff;
+  box-sizing:border-box;
+  font-size: x-large;
+  text-align: center;
+  line-height: 90px;
+}
+.box .a2 {
+  font-size: larger;
+  width: 50%;
+  box-sizing:border-box;
+  height: 100px;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 5px solid #fff;
+  line-height: 90px;
+  /* padding-left: 15px; */
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+  /* background-color: #72bcfd; */
+  height: 140px;
+  margin: 0 auto;
+  background: linear-gradient(#6ab8fe, #ddf2ec);
+  border-radius: 13px;
+  color: #fff;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* #c2e5fe */
+/* #67b7fe */
+/* #4dd4b2 */
+/* #ddf2ec */
+.card image {
+  width: 65px;
+  height: 65px;
+}
+.card .info .cardName {
+  /* padding: 15px; */
+  /* text-align: center; */
+  font-size: larger;
+}
+.card .info .intro {
+  /* font-size: larger; */
+  margin-top: 10px;
+}
+.card .btn {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 14px;
+  text-align: center;
+  /* font-size: larger; */
+  width: 50px;
+}

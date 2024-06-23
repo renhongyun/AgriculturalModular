@@ -3,5 +3,25 @@
   "projectname": "miniprogram-5",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/knowledge/knowledge",
+          "pathName": "pages/knowledge/knowledge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/tool/tool",
+          "pathName": "pages/tool/tool",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
